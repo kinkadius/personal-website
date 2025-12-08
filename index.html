@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Kinkade</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #ccc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            margin: 40px;
+            gap: 60px;
+            align-items: flex-start;
+        }
+
+        .profile-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0 0 10px 0;
+            line-height: 1.1;
+            color: #fff;
+        }
+
+        .lastname {
+            color: #333;
+            font-weight: 700;
+            display: block;
+        }
+
+        p {
+            margin-bottom: 24px;
+            font-size: 18px;
+            color: #aaa;
+        }
+
+        .signature {
+            margin-top: 40px;
+        }
+
+        .signature img {
+            height: 128px;
+            width: auto;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin: 20px;
+                gap: 30px;
+            }
+            
+            .profile-image img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">
+            <img src="archive.webp" alt="Kyle Kinkade">
+        </div>
+        <div class="content">
+            <h1>Kyle <span class="lastname">Kinkade</span></h1>
+            
+            <p>I grew up in a family of entrepreneurial engineers, and at a very early age I fell in love with the process of making and selling things that are not only innovate but also excite.</p>
+            
+            <p>I learned that the best products are the ones that change how people see things... but the most disruptive ones change the business models of entire industries. That's why I've been breaking new ground in emerging tech for the past 23 years, building products that change how the world works.</p>
+            
+            <p>Whether it was helping found the first company on top of Amazon Web Services, releasing the first featured apps for the iPhone on the Apple App store (to the tune of a billion downloads), or fusing physical and digital to create a singular experience through wearables and spatial computing — my passion is dedicating myself to the principle that building a good product is building a better world.</p>
+            
+            <div class="signature">
+                <img src="signature.webp" alt="Kyle Kinkade Signature">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
