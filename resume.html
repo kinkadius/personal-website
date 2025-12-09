@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Kinkade | Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+    <style>
+        body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+        @media (max-width: 767px) {
+            body { padding: 15px; }
+        }
+        /* Hide the "Raw" link when printing to PDF */
+        @media print {
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="markdown-body">
+    
+    <div class="no-print" style="margin-bottom: 20px; text-align: right;">
+        <a href="resume.md" target="_blank" style="margin-right: 10px;">[ View Raw Markdown ]</a>
+        <a href="https://github.com/kinkadius/personal-website/releases/latest" target="_blank">[ Download PDF ]</a>
+    </div>
+
+    <div id="content">Loading resume...</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Fetch the Markdown file
+        fetch('resume.md')
+            .then(response => response.text())
+            .then(text => {
+                // Parse it into HTML
+                document.getElementById('content').innerHTML = marked.parse(text);
+            })
+            .catch(err => {
+                document.getElementById('content').innerHTML = 'Error loading resume. Is resume.md in the repo?';
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
