@@ -33,7 +33,7 @@ I specialize in taking emerging technologies and turning them into consumer-grad
 *San Francisco, CA (Remote) | 2020 – 2022*
 *Merged with Monocle Society. Integral Reality Labs builds blockchain-enabled physical gaming.*
 
-*  Built out an integral reality-based platform, defining new experiences for spatial computing with experiences with stunning 3D printing, IoT, mobile, and AR/XR.
+*  Built out an integral reality-based platform, creating robotics and AR based experiences with 3D printing, IoT, mobile, and AR/XR.
 * Created user journeys bridging physical smart-toys (RFID-enabled) with immutable digital assets (NFTs) and game engines.
 * Led cross-functional design and engineering teams to develop critical prototypes through R&D.
 
@@ -73,7 +73,7 @@ I specialize in taking emerging technologies and turning them into consumer-grad
 ---
 
 ## Patents & Intellectual Property
-*Holder of 6 issued U.S. patents defining core technologies in Spatial Computing and UX.*
+*Issued multiple U.S. patents defining core technologies in Spatial Computing and UX.*
 
 * **True Three-Dimensional Streaming (US 12,198,244):** Architecture for real-time volumetric content delivery.
 * **Eye Focus UX (US 11,816,262 & 12,141,354):** Biometric UI modification based on user gaze and focal depth.
