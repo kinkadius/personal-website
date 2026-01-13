@@ -50,7 +50,7 @@ I specialize in turning emerging technologies and products and experiences. With
 *Seattle, WA | 2009 – 2012*
 
 * Established and grew relationship with Big Fish Games, making several of their most known games available to iOS.
-* Bootstrapped and launched Bartleby’s Book of Buttons, received Apple’s "App of the Week" as part of their iPhone Launmch marketing.
+* Bootstrapped and launched Bartleby’s Book of Buttons, received Apple’s "App of the Week" as part of their iPhone Launch marketing.
 * Acquired by private equity in 2012.
 
 ### **Product & User Experience | Tapulous**
@@ -69,9 +69,11 @@ I specialize in turning emerging technologies and products and experiences. With
 
 ### **Early Career (Microsoft & Gates Foundation)**
 *Redmond/Seattle, WA | 2002 – 2007*
+
 * **Microsoft (2005-2007):** Engineered test infrastructure for Business Intelligence (BI) analytics, specifically validating Multidimensional Expressions (MDX) integrations between BizTalk Server and Microsoft Excel.
-* **Bill & Melinda Gates Foundation (2004-2005):** SDET for the Foundation’s proprietary grant management system, the critical internal infrastructure used to structure and disperse billions in philanthropic capital.
+* **Bill & Melinda Gates Foundation (2004-2005):** SDET for the Foundation's proprietary grant management system, the critical internal infrastructure used to structure and disperse billions in philanthropic capital.
 * **Microsoft (2002-2004):** SDET for Combat Flight Simulator 3, before moving to Windows Sustained Engineering to develop the validation tools used to ship security patches.
+
 ---
 
 ## Patents & Intellectual Property
