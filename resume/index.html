@@ -38,6 +38,7 @@
                 return response.text();
             })
             .then(text => {
+                text = text.replace(/\\newpage/g, '');
                 document.getElementById('content').innerHTML = marked.parse(text);
             })
     </script>
